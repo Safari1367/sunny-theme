@@ -1,0 +1,9 @@
+@use "../../utils/index" as *;
+
+.package-content {
+  .package-content {
+    @include flex();
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+}
